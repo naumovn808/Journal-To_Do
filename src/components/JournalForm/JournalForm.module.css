@@ -1,0 +1,65 @@
+.journal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.journal-form input {
+    background-color: inherit;
+    color: #fff;
+}
+
+.journal-form textarea {
+    background-color: inherit;
+    color: #fff;
+}
+
+.form-label {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    min-width: 150px;
+}
+
+.input {
+    border: none;
+    background: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Source Sans 3', sans-serif;
+    border-bottom: 1px solid #323232;
+    width: 100%;
+}
+
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.invalid {
+    border: 1px solid red;
+    background-color: rgb(68, 6, 6) !important;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    font-size: 14px;
+  }
+
+  .delete {
+    border: none;
+    background: none;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+  }
+
+  .delete:hover{
+    background: rgb(255, 255, 255, 0.05);
+    border-radius: 50%;
+  }
